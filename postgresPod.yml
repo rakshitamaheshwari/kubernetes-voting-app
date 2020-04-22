@@ -8,6 +8,6 @@ metadata:
 spec:
     containers:
     - name: postgres
-      image: postgres
+      image: launcher.gcr.io/google/postgresql9
       ports:
       - containerPort: 5432
